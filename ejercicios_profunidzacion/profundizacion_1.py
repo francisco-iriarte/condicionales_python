@@ -20,5 +20,23 @@ Calcule la diferencia entre ellos e informe por pantalla
 si el resultado es positivo, negativo o cero.
 '''
 
+from turtle import clearscreen
+
+
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
+clearscreen
+numero_1 = int(input("ingrese un número"))
+numero_2 = int(input("ingrese otro número"))
+diferencia = numero_1 - numero_2
+if diferencia > 0:
+    print (" La diferencia entre numero_1 y numero_2 es positiva")
+elif diferencia < 0 :
+    print (" La diferencia entre numero_1 y numero_2 es negativa")
+else :
+    print ("La diferencia entre numero_1 y numero_2 es 0")
+
+
+
+print(numero_1)
+print(numero_2)
